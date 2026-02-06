@@ -1,5 +1,7 @@
 def main():
-    print("Hello from whisper!")
+    from whisp.cli import main as _main
+
+    _main()
 
 
 if __name__ == "__main__":
